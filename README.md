@@ -57,3 +57,7 @@ node ./scripts/build-plugin.mjs
 - 如果你后面想把它升级成服务端调用，可以把 `src/lib/openai.ts` 改成请求你自己的后端。
 - 高亮区域目前使用红色描边框 + 文本标签，你可以继续改成更贴近你团队规范的视觉样式。
 - 社区发布前建议先看 [docs/community-publish-kit.md](/Users/xiaoxin/Desktop/优大集买家端/figma-ui-design-review-plugin/docs/community-publish-kit.md:1) 和 [docs/privacy-policy-template.md](/Users/xiaoxin/Desktop/优大集买家端/figma-ui-design-review-plugin/docs/privacy-policy-template.md:1)。
+
+## Maintainers
+
+- [xiaoxinxiaosong](https://github.com/xiaoxinxiaosong) - Owner and primary maintainer
