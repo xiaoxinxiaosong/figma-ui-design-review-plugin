@@ -1,0 +1,17 @@
+{
+  "name": "UI Design Review AI",
+  "id": "1639546798898049486",
+  "api": "1.0.0",
+  "main": "dist/code.js",
+  "editorType": ["figma"],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "reasoning": "The plugin sends the selected design screenshot and implementation screenshot directly to the user-selected AI provider for UI review analysis.",
+    "allowedDomains": [
+      "https://api.openai.com",
+      "https://generativelanguage.googleapis.com",
+      "https://openrouter.ai",
+      "https://dashscope.aliyuncs.com"
+    ]
+  }
+}

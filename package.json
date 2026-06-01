@@ -1,0 +1,27 @@
+{
+  "name": "figma-ui-design-review-plugin",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "deps:repair": "node ./scripts/ensure-local-deps.mjs",
+    "build": "node ./scripts/build-plugin.mjs",
+    "build:ui": "node ./scripts/build-plugin.mjs --ui-only",
+    "smoke:ui": "node ./scripts/smoke-test-ui-inline.mjs",
+    "smoke:runtime": "node ./scripts/smoke-test-plugin-runtime.mjs",
+    "verify": "node ./scripts/verify-plugin.mjs",
+    "dev": "vite",
+    "typecheck": "node ./node_modules/typescript/bin/tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.104.0",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.10"
+  }
+}

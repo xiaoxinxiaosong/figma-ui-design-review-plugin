@@ -1,0 +1,73 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="180" y1="90" x2="1700" y2="980" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F5F0FF"/>
+      <stop offset="0.38" stop-color="#DDD0FF"/>
+      <stop offset="1" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1318 290) rotate(138.5) scale(620 440)">
+      <stop offset="0" stop-color="#8B6CFF" stop-opacity="0.36"/>
+      <stop offset="1" stop-color="#8B6CFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="iconBg" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(430 340) rotate(49.8) scale(300 306)">
+      <stop offset="0" stop-color="#8E7EFF"/>
+      <stop offset="0.34" stop-color="#7D64F6"/>
+      <stop offset="0.72" stop-color="#4A3C88"/>
+      <stop offset="1" stop-color="#30285D"/>
+    </radialGradient>
+    <linearGradient id="iconPill" x1="0" y1="0" x2="164" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F7F4FF"/>
+      <stop offset="1" stop-color="#B69DFF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1920" height="1080" fill="url(#bg)"/>
+  <rect width="1920" height="1080" fill="url(#glow)"/>
+
+  <g opacity="0.16" stroke="#6F55E8" stroke-width="1">
+    <path d="M0 180H1920"/>
+    <path d="M0 360H1920"/>
+    <path d="M0 540H1920"/>
+    <path d="M0 720H1920"/>
+    <path d="M0 900H1920"/>
+    <path d="M240 0V1080"/>
+    <path d="M480 0V1080"/>
+    <path d="M720 0V1080"/>
+    <path d="M960 0V1080"/>
+    <path d="M1200 0V1080"/>
+    <path d="M1440 0V1080"/>
+    <path d="M1680 0V1080"/>
+  </g>
+
+  <g>
+    <rect x="220" y="224" width="260" height="260" rx="80" fill="url(#iconBg)"/>
+    <rect x="196" y="360" width="172" height="104" rx="52" transform="rotate(-9 196 360)" fill="url(#iconPill)" fill-opacity="0.95"/>
+    <circle cx="352" cy="304" r="8" fill="white" fill-opacity="0.96"/>
+    <circle cx="392" cy="266" r="6" fill="white" fill-opacity="0.8"/>
+    <path d="M236 382C290 350 314 322 338 292C360 264 394 238 454 228" stroke="white" stroke-opacity="0.18" stroke-width="26" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="580" y="376" fill="#1F1638" font-size="128" font-weight="800" font-family="Inter, Helvetica, Arial, sans-serif">Vision QA</text>
+    <text x="580" y="486" fill="#463B69" font-size="54" font-weight="600" font-family="Inter, Helvetica, Arial, sans-serif">AI-powered UI review for design vs implementation</text>
+    <text x="580" y="586" fill="#574E77" font-size="40" font-weight="500" font-family="Inter, Helvetica, Arial, sans-serif">Compare screenshots, detect visual issues, and highlight findings directly in Figma.</text>
+  </g>
+
+  <g>
+    <rect x="580" y="684" width="420" height="92" rx="28" fill="#6F55E8"/>
+    <text x="790" y="744" text-anchor="middle" fill="white" font-size="40" font-weight="700" font-family="Inter, Helvetica, Arial, sans-serif">Design review in one flow</text>
+  </g>
+
+  <g opacity="0.9">
+    <rect x="1236" y="246" width="420" height="520" rx="44" fill="white" fill-opacity="0.72" stroke="#D8CEFB" stroke-width="2"/>
+    <rect x="1274" y="312" width="344" height="54" rx="18" fill="#EFE9FF"/>
+    <rect x="1274" y="394" width="344" height="54" rx="18" fill="#EFE9FF"/>
+    <rect x="1274" y="476" width="344" height="54" rx="18" fill="#EFE9FF"/>
+    <rect x="1274" y="574" width="168" height="128" rx="22" fill="#F7F4FF"/>
+    <rect x="1450" y="574" width="168" height="128" rx="22" fill="#F7F4FF"/>
+    <rect x="1274" y="736" width="344" height="18" rx="9" fill="#E8E1FF"/>
+    <rect x="1274" y="774" width="286" height="18" rx="9" fill="#E8E1FF"/>
+    <rect x="1518" y="220" width="188" height="44" rx="22" fill="#FFEEE3"/>
+    <text x="1612" y="251" text-anchor="middle" fill="#E6722D" font-size="24" font-weight="700" font-family="Inter, Helvetica, Arial, sans-serif">Visual QA</text>
+  </g>
+</svg>
